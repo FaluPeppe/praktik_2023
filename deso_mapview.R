@@ -25,3 +25,5 @@ deso_utan_kom <- deso %>%
 dalarna_buffer <- st_buffer(deso_utan_kom, 10000)
 mapview(dalarna_buffer)+
   mapview(deso, zcol = "kommun")
+
+# hej hej, här kommer ett litet tillägg!
